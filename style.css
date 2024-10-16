@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+.header{
+    background-color: #0047ba;
+    width: 100%;
+    height: 130px;
+}
+
+.aqua-logo{
+    width: 190px;
+    height: 110px;
+    size: 10px;
+    margin-bottom: 5px;
+    margin-left: 140px ;
+
+}
+
+.navigation{
+    height: 40px;
+    width: 100%;
+    background-color: none;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    z-index: 1500;
+    margin-top: 40px;
+}
+
+.center-nav{
+    height: 2rem;
+    flex:8;
+    margin-left: 100px;
+    
+}
+.right-nav{
+    flex: 3;
+    margin: 0px;
+    display: flex;
+    margin-top: 50px;
+}
+.mainlist{
+
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    justify-content: center ;
+    align-items: center ;
+    text-decoration: none;
+}
+.list{
+    text-decoration: none;
+    color: rgb(253, 251, 251);
+    font-family: sans-serif;
+    
+    padding: 1px 2px;
+    font-size: 1rem;
+     font-stretch: expanded ;
+     letter-spacing: 1px;
+font-weight: 100px;
+margin: 0 0.5rem;
+}
+.list:hover{
+    color:rgb(164, 194, 164);
+
+
+}
+
+.main-body {
+    background-image: url(images/aqf-core-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    position: relative; /* Added this to contain the absolutely positioned elements */
+}
+
+.left-image {
+    height: 700px;
+    width:700px;
+    margin-bottom: 100px;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 5px; /* Adjusted position */
+    left: 50px; /* Adjusted position */
+}
+
+.right-image {
+    height: 200px;
+    width: 563px;
+    position: absolute;
+    top: 50px; /* Adjusted position */
+    right: 150px; /* Adjusted position */
+}
+
+
+.button {
+    height: 50px;
+    width: 200px;
+    margin-bottom: 15px; /* Corrected the typo */
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-weight: 200;
+    border-width: 1px;
+    color: blue;
+    border-color: blue;
+    background-color: transparent;
+    
+
+}
+.button hover{
+    background-color: blue;
+}
+
+
+.btn1 {
+    position: absolute; /* Changed to absolute */
+    bottom: 280px;
+    right: 230px; 
+}
+.btn2 {
+    position: absolute; /* Changed to absolute */
+    bottom: 280px;
+    right: 450px; 
+}
+
+
+
+.footer {
+    background-color: white;
+    padding: 30px 0;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+    position: relative;
+    
+}
+
+.footer-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    margin-left: 200px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #0047ba;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links ul li a:hover {
+    color: #96b6d8;
+    
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 80px;
+    margin-left:1400px;
+    position: absolute;
+}
+
+.footer-social a img {
+    width: 30px;
+    height: 30px;
+    left: 500px;
+}
+
+.footer-logo {
+    margin-top: 50px;
+    
+    position: absolute;
+}
+
+.footer-logo img {
+    width: 120px;
+    height: auto;
+    margin-left: 1400px;
+}
+
+.footer-copyright {
+    font-size: 11px;
+    color: blue;
+     text-align: center;
+    font-family: sans-serif;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 150px;
+    
+   
+    
+    
+}
